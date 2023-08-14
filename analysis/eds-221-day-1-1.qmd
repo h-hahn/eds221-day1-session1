@@ -5,5 +5,8 @@ editor: visual
 ---
 
 ```{r}
-
+library(tidyverse)
+# read data when you need to go back upstream path
+## .. means going back one directory
+energy2 <- read_csv("../data/us_energy.csv")
 ```
